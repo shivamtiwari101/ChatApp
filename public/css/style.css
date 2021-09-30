@@ -70,6 +70,7 @@
     height: 35px;
     border-radius: 50px;
   background-color: wheat;
+    outline:none;
  
 }
 .msg{
