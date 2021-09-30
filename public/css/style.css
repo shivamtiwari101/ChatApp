@@ -1,0 +1,118 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-box{
+    height:40rem;
+    width:60rem;
+    
+    /* height:40rem;
+    width:60rem;
+    background-image: url("/image/bg2.jpg");
+    background-size: cover;
+    border-radius:2px 2px 2px 20px; */
+    overflow-y: scroll;
+   /* position: relative;
+    margin: auto;
+     filter: drop-shadow(0.2rem 1rem 0.3rem rgba(0,0,0.3));
+     background-color: whitesmoke; */
+}
+.main-div{
+    
+    height:45rem;
+    width:60rem;
+    background-image: url("/image/bg2.jpg");
+    background-size: cover;
+    border-radius:2px 2px 2px 20px;
+    position: relative;
+    margin: auto;
+     filter: drop-shadow(0.2rem 1rem 0.3rem rgba(0,0,0.3));
+     background-color: whitesmoke;
+    
+}
+ .box1{
+    height:40rem;
+    width:60rem;
+    
+     position: relative;
+ }
+/* body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+} */
+.userName{
+    float: right;
+    clear: both; 
+    font-size: 20px; 
+    font-weight: bolder; 
+    color: wheat; 
+    text-transform: capitalize;
+}
+.userMsg{
+    clear: both;
+}
+.userTime{
+    float: right;
+}
+.msg-form-box{
+       
+       bottom:0;
+       width:100%;
+      /* // position:absolute; */
+      position:absolute;
+       
+}
+#input{
+    width: 40rem;
+    height: 35px;
+    border-radius: 50px;
+  background-color: wheat;
+ 
+}
+.msg{
+     width:10rem;
+     border-radius: 10px;
+     background-color: black;
+     color:white;
+     margin: 5px;
+     padding: 10px;
+}
+.right{
+    float:right;
+    clear: both;
+}
+.left{
+    float:left;
+    clear:both;
+}
+.btn{
+    height: 40px;
+    width:100px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+}
+ ::placeholder{
+     color: whitesmoke;
+     font-weight: bolder;
+     font-size: 20px;
+     padding-left: 10px;
+ }
+@media(max-width:768px){
+    .main-box{
+        width:auto;
+    }
+     #input{
+         width: auto;
+    } 
+    .main-box{
+        background-size:100%;
+        background-repeat: no-repeat;
+    
+    }
+}
