@@ -5,7 +5,7 @@ const socket=io();
 const formatAMPM = (date) => {
   let hours = date.getHours();
   let minutes = date.getMinutes();
-  let ampm = hours >= 12 ? 'AM' : 'PM';
+  let ampm = hours >= 12 ? 'PM' : 'AM';
   hours = hours % 12;
   hours = hours ? hours : 12;
   minutes = minutes.toString().padStart(2, '0');
